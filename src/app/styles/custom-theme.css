@@ -1,0 +1,38 @@
+:root {
+  /* Background main desktop area and Taskbar */
+  --custom-custom-main-desktop-bg: #050517;
+
+  /* Background for windows or panels */
+  --custom-window-bg: #11122b;
+
+  /* Color for header or title bars of windows */
+  --custom-window-header: #2e2f5e;
+
+  /* Errors or warnings */
+  --custom-error: #ff3e3e;
+
+  /* Successful or positive actions */
+  --custom-sucess: #0cbc7d;
+
+  /* Interactive elements or call-to-action buttons */
+  --custom-accent-one: #0078d4;
+  --custom-accent-two: #0a6ebd;
+
+  /* Text color */
+  --custom-text-color: #ffffff;
+
+  /* Secondary text */
+  --custom-secondary-text: #f0f0f0;
+}
+
+/* Define custom variable */
+/* :root {
+  --primary-color: #ff6347;
+  --font-size: 16px;
+} */
+
+/* Use the custom variable */
+/* .my-element {
+  color: var(--primary-color);
+  font-size: var(--font-size);
+} */

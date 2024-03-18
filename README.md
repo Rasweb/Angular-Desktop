@@ -6,6 +6,8 @@
     * Angular Material: https://material.angular.io/
     * Angular CDK: https://v7.material.angular.io/cdk/categories
     * Material Design icons: https://materialdesignicons.com/cdn/1.6.50-dev/
+    Images from: https://pixabay.com/
+    Main background image: https://pixabay.com/photos/lofoten-norway-polar-cold-ice-7164179/
  -->
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.8.

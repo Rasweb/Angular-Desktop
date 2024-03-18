@@ -1,24 +1,28 @@
+<!-- Create a simple calendar using js -->
+
+<!-- 
+  Use this website for help
+  https://www.geeksforgeeks.org/how-to-design-a-simple-calendar-using-javascript/
+ -->
+
 <mat-toolbar class="bottom">
-  <button
-    mat-icon-button
-    class="example-icon"
-    aria-label="Example icon-button with menu icon"
-  >
-    <mat-icon>monitor</mat-icon>
+  <button mat-icon-button class="" aria-label="icon-button with monitor icon">
+    <mat-icon class="custom-icon-size text-color">monitor</mat-icon>
   </button>
-  <button
-    mat-icon-button
-    class="example-icon favorite-icon"
-    aria-label="Example icon-button with heart icon"
-  >
-    <mat-icon>folder</mat-icon>
+  <button mat-icon-button class="" aria-label="icon-button with folder icon">
+    <mat-icon class="custom-icon-size text-color">folder</mat-icon>
   </button>
-  <button
-    mat-icon-button
-    class="example-icon"
-    aria-label="Example icon-button with share icon"
-  >
-    <mat-icon>web</mat-icon>
+  <button mat-icon-button class="" aria-label="icon-button with web icon">
+    <mat-icon class="custom-icon-size text-color">web</mat-icon>
   </button>
-  <!-- date and time -->
+
+  <span class="spacer-style"></span>
+  <div class="text-color date-size">
+    <div>
+      {{ timeToday }}
+    </div>
+    <div>
+      {{ dateToday }}
+    </div>
+  </div>
 </mat-toolbar>

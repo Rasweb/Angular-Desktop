@@ -3,4 +3,24 @@
   bottom: 0;
   left: 0;
   width: 100%;
+  background-color: var(--custom-main-desktop-bg);
+}
+
+.custom-icon-size {
+  width: 1.6rem !important;
+  height: 1.6rem !important;
+  font-size: 1.6rem !important;
+}
+
+.text-color {
+  color: var(--custom-text-color);
+}
+
+.date-size {
+  font-size: 1.1rem;
+  line-height: 1.2rem;
+}
+
+.spacer-style {
+  flex: 1 1 auto;
 }

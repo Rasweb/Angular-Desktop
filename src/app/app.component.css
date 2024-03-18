@@ -1,0 +1,8 @@
+.test {
+  color: var(--custom-text-color);
+  background-image: url(../assets/winter-wallpaper.jpg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
